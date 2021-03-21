@@ -1,0 +1,85 @@
+body{
+  background-image: url('background.jpg');
+  background-size:cover;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  margin:auto;
+  padding-bottom: 50px;
+
+}
+
+.logo-container > img{
+  width: 22%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+header h1 {
+  color:lime;
+  text-align: center;
+  margin: 0;
+}
+
+main, nav{
+  width: 80%;
+  margin:auto;
+}
+
+.nav-space{
+  background-color: lime;
+  padding:8px;
+  text-align: center;
+}
+
+section {
+  color:white;
+}
+
+section > h2 {
+  margin-bottom: 0;
+}
+
+section > h2:before {
+  content: "\2713  ";
+}
+
+section  p {
+  margin: 5px 0;
+}
+
+p:nth-child(2)::before {
+  content: "\21AA";
+}
+
+section div {
+  height: 20px;
+}
+
+#first-charge {
+  background-color: orange;
+  width: 50%;
+}
+
+#second-charge{
+  background-color: lime;
+  width: 80%;
+
+}
+
+#third-charge{
+  background-color: red;
+  width: 25%;
+
+}
